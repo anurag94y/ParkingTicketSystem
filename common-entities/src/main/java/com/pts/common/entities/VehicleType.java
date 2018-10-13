@@ -1,4 +1,4 @@
-package com.meeya;
+package com.pts.common.entities;
 
 /**
  * @author anurag.y
