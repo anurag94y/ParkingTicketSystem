@@ -5,5 +5,7 @@ package com.pts.common.entities;
  * @since 08/10/18.
  */
 public enum VehicleType {
-    TWO_WHEELER, FOUR_WHEELER, HEAVY_VEHICLE
+    TWO_WHEELER,
+    FOUR_WHEELER,
+    HEAVY_VEHICLE
 }

@@ -1,10 +1,7 @@
 package com.pts.common.entities;
 
-
 import lombok.Builder;
 import lombok.Data;
-import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
 
 import java.util.List;
 
@@ -15,8 +12,10 @@ import java.util.List;
 @Data
 @Builder
 public class Building {
-    @Id
-    private ObjectId _id;
-    private List<Long> companyIds;
-    private List<Long> parkingSlotIds;
+    private String id;
+    private String name;
+    private String address;
+    private String contactDetail;
+    private List<String> companyIds;
+    private List<String> parkingSlotIds;
 }
