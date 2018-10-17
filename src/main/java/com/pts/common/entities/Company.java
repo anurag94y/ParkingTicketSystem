@@ -17,7 +17,7 @@ import java.util.List;
 @Builder
 public class Company {
 
-    private String id;
+    private String companyId;
     private String name;
     private String emailId;
     private String contactNumber;

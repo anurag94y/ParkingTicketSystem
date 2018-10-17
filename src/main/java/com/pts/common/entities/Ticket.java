@@ -15,7 +15,7 @@ import lombok.Data;
 @Builder
 public class Ticket {
 
-    private String id;
+    private String ticketId;
     private String ticketNumber;
     private String VehicleNumber;
     private String parkingSlotId;

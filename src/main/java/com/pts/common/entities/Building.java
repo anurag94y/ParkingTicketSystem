@@ -16,7 +16,8 @@ import java.util.List;
 @Data
 @Builder
 public class Building {
-    private String id;
+
+    private String buildingId;
     private String name;
     private String address;
     private String contactDetail;

@@ -15,7 +15,7 @@ import lombok.Data;
 @Builder
 public class Operator {
 
-    private String id;
+    private String operatorId;
     private String name;
     private String emailId;
     private String password;

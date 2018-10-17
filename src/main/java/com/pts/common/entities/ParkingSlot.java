@@ -15,7 +15,7 @@ import lombok.Data;
 @Builder
 public class ParkingSlot {
 
-    private String id;
+    private String parkingSlotId;
     private String buildingId;
     private String companyId;
     private VehicleType vehicleType;
