@@ -22,4 +22,5 @@ public class ParkingSlot {
     private Boolean isReserved;
     private Boolean isVacant;
     private String floorNumber;
+    private String slotNumber;
 }
