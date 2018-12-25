@@ -19,8 +19,8 @@ public class ParkingSlot {
     private String buildingId;
     private String companyId;
     private VehicleType vehicleType;
+    private ParkingSlotVacantStatus vacantStatus;
     private Boolean isReserved;
-    private Boolean isVacant;
     private String floorNumber;
     private String slotNumber;
 }
